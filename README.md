@@ -113,11 +113,3 @@ flowchart LR
 - **Parameterization:** Consider parameters for `ADDR_W` and `DATA_W` in `dp_ram` and the interface to scale the depth and data width cleanly.
 
 ---
-
-## 📜 License
-
-MIT — see `LICENSE` (add your preferred license).
-
----
-
-*Generated on* 2025-08-14.
