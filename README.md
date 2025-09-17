@@ -50,6 +50,18 @@ uvm/                          // UVM environment
 
 ---
 
+## Live Demos (EDA Playground)
+
+### SystemVerilog (class-based) environment
+Link: https://www.edaplayground.com/x/wpXQ
+What’s inside: Dual-port RAM + SV TB (generator, driver, monitor, scoreboard, coverage).
+Notes: READ_FIRST read-during-write policy is exercised.
+
+### UVM environment
+Link: https://www.edaplayground.com/x/BXcN
+What’s inside: Dual-port RAM + full UVM TB (sequences, driver, monitors, scoreboard, coverage model).
+Notes: Demonstrates reuse via UVM factory, analysis ports, and modular components.
+
 ##  Why add UVM alongside SV
 
 * Constrained-random across two ports to reach rare collision corners  
