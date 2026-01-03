@@ -1,7 +1,7 @@
-class scoreboard extends uvm_component;
+class scoreboard extends uvm_scoreboard;
   `uvm_component_utils(scoreboard)
 
-  // TLM sink (monitor → env → scb)
+  // TLM sink (monitor → agent → scb)
   uvm_tlm_analysis_fifo#(transaction) fifo;
 
   // Tiny reference model (OLD-data policy)

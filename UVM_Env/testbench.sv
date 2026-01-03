@@ -34,7 +34,6 @@ import uvm_pkg::*;
 `include "dp_ram_design.sv"
 
 module top;
-  dp_env env;
   
   bit clk=0;
   bit rst;
